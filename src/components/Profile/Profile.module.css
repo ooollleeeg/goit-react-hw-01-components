@@ -1,0 +1,74 @@
+.profile {
+  background-color: rgb(250, 250, 250);
+  border-radius: 8px;
+  width: 320px;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0px 5px 10px 0px rgba(29, 29, 29, 0.5);
+}
+.profile:hover {
+  scale: 1.1;
+}
+.description {
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(51, 45, 57);
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: rgb(200, 200, 200);
+  margin: 0 auto;
+}
+.name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.14;
+  margin-bottom: 5px;
+}
+.tag,
+.location {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.14;
+  color: rgba(128, 128, 128, 0.784);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.stats {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: rgb(235, 230, 230);
+  height: 90px;
+  padding-inline-start: 0%;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.statsItem {
+  width: 33.3%;
+  border: solid 1px rgba(128, 128, 128, 0.5);
+  display: inline-block;
+}
+
+.label,
+.quantity {
+  display: block;
+  text-align: center;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.86;
+  color: rgba(95, 94, 94, 0.784);
+  padding-top: 9px;
+}
+
+.quantity {
+  font-size: 20px;
+  line-height: 1.86;
+  color: black;
+  padding-top: 0;
+}
