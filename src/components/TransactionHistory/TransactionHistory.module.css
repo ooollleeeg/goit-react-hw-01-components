@@ -9,6 +9,7 @@ th,
 td {
   padding: 10px;
   border: 2px solid rgb(202, 200, 200);
+  text-align: center;
 }
 
 th {
